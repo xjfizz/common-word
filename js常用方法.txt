@@ -1,0 +1,49 @@
+数组倒序遍历       
+for (let i = u.siteIds.length - 1; i >= 0; i--) {
+          if (u.siteIds[i] !== null && u.siteIds[i] !== '' ) {
+            sp.querySiteId = u.siteIds[i]
+            break
+          }
+        }
+
+api 示例
+      this.api.getOrderDetail(id).subscribe(res => {
+        this.order = res;
+        console.log(this.order);
+        this.mapStas();
+      });
+
+截取字符串
+
+后四位： str.substr(str.length-4) 
+
+对象数组去重：
+var hash = {};
+
+arr = arr.reduce(function(item, next) {
+
+    hash[next.name] ? '' : hash[next.name] = true && item.push(next);
+
+    return item
+}, [])
+
+
+
+
+
+    <input  name="loginId " [(ngModel)]="loginId" />
+    <input  name="amt"  [(ngModel)]="amt" />
+    <input  name="channel"  [(ngModel)]="channel" />
+    <input  name="pageNotifyUrl"  [(ngModel)]="pageNotifyUrl" />
+    <input  name="backNotifyUrl"  [(ngModel)]="backNotifyUrl" />
+    <input  name="mchntCd"  [(ngModel)]="mchntCd" />
+    <input  name="mchntTxnSsn"  [(ngModel)]="mchntTxnSsn" />
+    <input  name="pageNotifyUrl"  [(ngModel)]="pageNotifyUrl" />
+    <input  name="signature"  [(ngModel)]="signature" />
+    <input  name="ver"  [(ngModel)]="ver" />
+
+
+
+
+
+{"respCode":"0000","respDesc":"订单创建成功！","obj":{"respCode":"0000","respDesc":"SUCCESS","mchntCd":"0002900F8003175","mchntTxnSsn":"10442634111102342343","fuiouOrder":null,"signature":null,"submerId":"256257486","sessionId":"wx27190136051417b1b33f3d761223470500","qrCode":"","subAppid":"","subOpenid":"ooIeqszBlkwLqoyJ2uzCTQzvSCO0","sdkAppid":"wxfa089da95020ba1a","sdktimesTamp":"1564225296","sdkNoncestr":"4c2032b9367a41ccab88da3fa67b2c47","sdkPackage":"prepay_id=wx27190136051417b1b33f3d761223470500","sdkPartnerid":null,"mchntTxnNum":"071455740040","sdkPaySign":"c//zoii4SpSaQWcD6LJjO1NZyHREojSiICjaudg7n07jDVeTOVw0/Feza5/00PX9Zl2E6N6Kn/VAX972G6oQh3HR2TS1ZGvB5CeUezwf1okBos2S6HI0Bl3aT5rO90dzq3OvYLAf3U0asgYzBAa2Cs0EefXzbKZ6/Ya8xE7IVUoTBySwdsvGjGyzBSmy4mdBTpUZLSbcJiY3eddpPWMzejmBuA/YL1cmdJg9ppJOTAykHG2Xqz6FIXS+w6Q4kI6ZVGqHo6mAj35TJNsmZNr/7c2NANpmcHXJFgyb0akZb5o8nJK98sidBtXK8GIUZzDnfOdIviuNjxftFzDfAlupQw==","sdkSignType":"RSA"},"signature":"to3UTSjeG2EPb43duIy5kwLYG3oJGVTPtrITDNJhGCaR5gBxkGYF1Pvl4iE47jfPkPUsHzv6Thti1DE11DuWrlLyyk27sbbzW4Esq/wLOrk73+hmp4RSZRq7wvVBoESMw6SQZOESvqSLB4J8k5RJNqYZlNNWBv7DSdsXqZXQrrk="}

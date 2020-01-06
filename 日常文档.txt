@@ -1,0 +1,48 @@
+﻿邮箱：http://mail.24ud.cn
+username:  xj@24ud.cn
+  
+password:   Ud123456
+
+钉钉邮箱:xujun@ud24.onaliyun.com
+极光后台
+Xujun1994123
+
+gitlab:  http://192.168.1.100/
+xuj
+xujun1994
+github:
+xujun1994123
+
+腾讯地图-小程序
+key: D2GBZ-3IMW4-3I7US-DZAMW-3FBXE-24BN7
+
+svn://125.88.182.15/res/
+123456
+
+git :http://192.168.1.100/projects/new
+
+
+ip: ping 192.168.1.179
+
+18118153023
+
+appid: wx07f37246412f887f
+微信支付插件：
+1. ionic cordova plugin add cordova-plugin-wechat@2.1.0 --variable wechatappid=你的微信appid
+2. npm install wechat-chenyu --save
+
+缓存：
+localStorage.setItem('bottomBtn', JSON.stringify(this.bottomBtn));
+this.bottomBtn = JSON.parse(localStorage.getItem('bottomBtn')) || 1;
+
+rxjs
+angular 8 
+ngrx 状态管理
+ionic 4.0 
+
+
+
+192.168.1.250	mongo
+192.168.1.250	eureka
+192.168.1.250	api.24ud.cn
+192.168.1.250	gateway

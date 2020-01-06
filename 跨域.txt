@@ -1,0 +1,10 @@
+øÁ”Ú£∫  
+"proxies": [
+    {
+      "path": "/cgi-bin",
+      "proxyUrl": "http://api.24ud.cn/cgi-bin"
+    }
+  ]
+
+
+ --disable-web-security --user-data-dir=C:\MyChromeDevUserData

@@ -1,0 +1,16 @@
+    async function go() {
+      console.log('go')
+    let msg1 = await back('123')
+    let msg2 = await back('456')
+    console.log('msg', msg1, msg2)
+    }
+      async function back(params) {
+      console.log('back')
+      return new Promise( (resolve,reject) => {
+        setTimeout(() =>{
+            resolve(`我是promise对象${params}`)
+        },500)
+      })
+      console.log('sssssss')
+ 
+    }

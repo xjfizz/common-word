@@ -1,0 +1,24 @@
+cd C:\Users\user\Desktop\Android
+npm install --save @capacitor/core @capacitor/cli
+
+
+npx cap init
+npm rebuild node-sass
+npm run build
+npx cap add android
+
+
+npm run build     =========>
+npx cap sync       =========>
+
+npx cap open android
+
+
+
+ionic build
+
+ionic capacitor copy android
+
+ionic capacitor open android
+
+

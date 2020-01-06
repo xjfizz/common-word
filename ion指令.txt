@@ -1,0 +1,28 @@
+﻿新建page:  ionic g page setting --pagesDir src/pages/about
+
+
+运行： ionic serve
+
+ionic g page 文件名 --pagesDir src/pages/about
+
+调用电话：
+
+
+ <access origin="tel:*" launch-external="yes" />
+
+ $scope.callPhone=function(){
+    $window.location.href="tel:10085";
+}
+
+
+ionic 生命周期：
+1.ngOnInit : 初始化组件并从每次后续访问时不需要刷新的服务加载数据
+2.ionViewWillEnter ：每次导航视图时都会调用，会启动大量的DOM操作，这可能会导致一些janky动画
+3.ionViewDidEnter: 直到用户看到页面之后才会触发此事件，因此您可能希望使用加载指示器或骨架屏幕，因此在转换完成后内容不会自然闪烁
+4.ionViewLeaveEnter: 可用于清理，例如取消订阅可观察对象
+5ionViewDidLeave: 当此事件触发时，您知道新页面已完全转换，因此在视图可见时您通常不会执行的任何逻辑都可以在此处进行。
+6.ngOnDestroy: 您不想清理的页面的清理逻辑ionViewWillLeave
+
+
+路由跳转：
+this.router.navigate(['/detail'])
