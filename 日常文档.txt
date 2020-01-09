@@ -26,6 +26,8 @@ ip: ping 192.168.1.179
 
 18118153023
 
+nginx: https://www.cnblogs.com/jiangwangxiang/p/8481661.html
+
 appid: wx07f37246412f887f
 微信支付插件：
 1. ionic cordova plugin add cordova-plugin-wechat@2.1.0 --variable wechatappid=你的微信appid
