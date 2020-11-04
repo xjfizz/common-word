@@ -1,0 +1,41 @@
+微信小程序：
+	appid:   wx934c13bbb6fcb89b  巨像智慧共享工厂-正式
+          	             wx745ec450b28ec6cd    巨像测试环境
+	appSecret:  66e4977e44db42ee5ba58b0b28cf8f93  测试环境
+
+服务器：
+          阿里云：120.27.239.58
+	       qingchuang666!!!
+数据库
+datasource:
+ url: jdbc:mysql://rm-uf66lju1xkj353537yo.mysql.rds.aliyuncs.com:3306/wisdom_workshop_test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+ username: root
+ password: industry_net123!@#
+
+          华为云：121.37.142.17
+	       jx@jx2020
+数据库
+url: jdbc:mysql://121.37.142.17:3306/wisdom_dev?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+username: root
+password: jx@123!@#
+
+  大屏地址：/mnt/sdc/developer/env/tomcat/tomcat9/webapps/data-center/jx/screen
+
+
+巨像工厂 
+
+主色调：#FF5400
+
+订单状态:       
+-1  ----  已取消
+0 ---- 待接单
+1 ---- 加工中
+2 ----  待取货
+2 ----  已取消
+2 ----  待收货
+2 ----  待支付
+5  ----  支付中
+3 ----  已完成
+
+
+

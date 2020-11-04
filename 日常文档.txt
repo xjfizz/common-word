@@ -11,7 +11,7 @@ gitlab:  http://192.168.1.100/
 xuj
 xujun1994
 github:
-xujun1994123
+xujungithub1994
 
 腾讯地图-小程序
 key: D2GBZ-3IMW4-3I7US-DZAMW-3FBXE-24BN7
